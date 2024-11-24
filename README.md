@@ -1,2 +1,2 @@
 # CommunityScienceMuseum
-all sites are stored in the pages forlder
+all sites are stored in the pages
