@@ -1,0 +1,44 @@
+
+
+ /* noe er feil ved denne. vil ikke bli mindre*/
+ .section-divider{
+    background-color: var(--main-color6);
+    width: 100vw;
+    margin:0;
+    padding: 40px 0;
+ }
+
+/*
+ @media (max-width: 800px) {
+   .section-divider {
+       height: 15vh; 
+   }
+}
+
+@media (max-width: 500px) {
+   .section-divider {
+       height: 10vh; 
+   }
+}*/
+
+ .content-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+   margin: 20px auto;
+   max-width: 1200px;
+   padding: 0 40px;
+ }
+
+ .content-container article {
+   max-width: 600px;
+   text-align: left; 
+}
+ 
+.info-img {
+    max-width: 300px;
+    height: auto;
+    /* display: block; */
+    margin-right: 70px;
+  }

@@ -1,0 +1,132 @@
+.sticky-header{
+    position: sticky; /* Blir sticky ved scrolling */
+    top: 0;
+    width: 100%;
+    z-index: 9; 
+    transition: opacity 0.5s ease; /* Glatt overgang */
+}
+
+.sticky-header img{
+    width: 100%;
+    height: 200px;
+}
+
+.sticky-header .nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    padding: 20px 0;
+    grid-template-columns: 1fr 200px 1fr;
+}
+
+.static-header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.static-header .nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    padding: 20px 0;
+    grid-template-columns: 1fr;
+}
+
+/* ------ Navbar ------ */
+.navbar-list {
+    /* position: absolute; */
+    /* left: 0px; */
+    display: flex; 
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.navbar-left{
+    justify-self: start;
+    padding-left: 30px; 
+}
+.navbar-right {
+    justify-content: end;
+    padding-right: 30px; 
+}
+
+.navbar-large {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    width: 100%; 
+    padding: 0;   
+}
+
+.navbar-list li {
+    display: inline-block;
+    background-color: var(--main-color5);
+    border: var(--dark-background-color);
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 1s;
+}
+
+.navbar-list li a{
+    color: var(--dark-background-color);
+    text-decoration: none;
+}
+.navbar-list li span{
+    padding: 20px 45px;
+    display: inline-block;
+    text-wrap:nowrap;
+}
+
+
+.navbar-list li:hover {
+    background-color: var(--main-color6);
+    transform: scale(1.2);
+    
+}
+
+.navbar-index li{
+    padding: 20px 65px;
+    font-size: 20px;
+}
+
+
+/* ------ Title ------ */
+.header-title {
+
+    position: relative;
+    top: 55px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff7f7;
+    font-family: "Londrina Solid", sans-serif;
+    text-shadow:  -3px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000,
+    2px 2px 0 #000;
+  }
+  
+.header-title-top, .header-title-bottom {
+font-size: 30px;
+font-family: "Londrina Solid", sans-serif; 
+margin: -15px;
+}
+
+.header-title-mid {
+font-size: 60px;
+font-family: "Londrina Solid", sans-serif; 
+margin: -10px;
+}

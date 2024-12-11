@@ -1,0 +1,141 @@
+
+body.index-page
+{
+    background-color: aliceblue;
+}
+
+.image-index {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+    transform: translateY(-200px); 
+    z-index: 1;
+}
+
+.full-width-image {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+    .image-index {
+        height: 600px; /* Mindre høyde for små skjermer */
+        margin-top: -30px; /* Juster plasseringen */
+    }
+}
+
+.container-index-1 {
+    position: relative;
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+}
+
+.index-page h1{
+    color: var(--text-color-light);
+    position: absolute;
+    top: 8%; /* Plassering i midten vertikalt */
+    left: 11%;
+  }
+
+/* exhibition spaces*/
+
+.wrapper {
+    display: flex; /* Aktiverer Flexbox */
+    justify-content: center; /* Horisontal midtstilling */
+    align-items: center; 
+    margin-bottom: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    padding: 5px;
+    max-width: 1300px;
+}
+
+.grid-item img {
+    width: 350px;
+    height: 350px;
+    object-fit:cover;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.container-index-2 {
+    position: relative;
+    width: 100%;
+    height: 650px;
+    /* overflow: hidden;  */
+    
+}
+
+.poster-img {
+    max-width: 800px;
+    height: auto;
+    margin: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.flex-container a {
+    align-self: flex-start;
+}
+
+.container-img {
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    margin: 50px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container-small {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    max-width: 1300px;
+    margin: 0 auto; /* Sentrer containeren på siden */
+    padding: 10px;
+}
+
+.grid-container section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+}
+

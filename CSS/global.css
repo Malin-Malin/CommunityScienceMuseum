@@ -1,0 +1,176 @@
+@import url("./reset.css");
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./info.css);
+@import url(./index.css);
+@import url(./speech_bubble.css);
+@import url(./exhibition_spaces.css);
+@import url(./visit.css);
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  text-align: center;
+}
+/* 
+main {
+  margin-top: 320px; 
+} */
+
+
+/*Buttons*/
+.button {
+  border-radius: 10px;
+  cursor: pointer; 
+  font-size: 1.2rem;
+  border: none; 
+  transition: background-color 0.3s ease; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 15px 15px;
+  margin: 10px;
+}
+
+.style-1{
+    background-color: var(--main-color2);
+    white-space: nowrap;
+    min-width: 200px;
+}
+
+.inner-button{
+  display: grid;
+    place-items: center;
+    background-color: white;
+    padding: 0px 90px; 
+    border-radius: 10px;
+    color: var(--text-color-dark); 
+    display: inline-block; 
+    font-weight: bold;
+    z-index: 2;
+}
+
+.style-1:hover {
+    background-color: var(--main-color3)
+}
+
+
+.style-2{
+    margin-top: 100px;
+    background-color: var(--main-color3);
+    white-space: normal;   
+}
+  
+  
+  .style-2:hover {
+    background-color: var(--main-color4);
+  }
+  
+
+.style-3 {
+  margin: 30px;
+    min-width: 200px;
+    background-color: var(--main-color4);
+    white-space: normal;
+}
+
+
+.style-3:hover {
+background-color: var(--main-color2);
+}
+
+/* Font*/ 
+h1, h2, h3 {
+  font-family: "Londrina Solid", sans-serif; 
+}
+
+h4, h5, h6, button, li, a, span{
+  font-family: "Londrina Solid-light", sans-serif; 
+}
+
+
+body, article, p {
+  font-family: "Merriweather", serif;
+}
+
+h1{
+  font-size: 2.2em;
+  z-index: 1;
+  font-weight: 900;
+}
+
+h2{
+  font-size: 2em;
+  z-index: 1;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+h4{
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h5,{
+  font-size: 1em;
+  font-weight: 300;
+}
+
+h6{
+  font-size: 0.75em;
+  font-weight: 300;
+}
+
+.londrina-solid-light {
+  font-family: "Londrina Solid", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.londrina-solid-regular {
+  font-family: "Londrina Solid", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.londrina-solid-black {
+  font-family: "Londrina Solid", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+/* 
+.full-width-image {
+  width: 100%; 
+  height: auto; 
+} */
+
+.light-text-color {
+  color: var( --text-color-light)
+}
+
+
+/* _________________________________________ */
+
+
+
+/* variables */
+:root{
+  --main-color2: rgba(124, 156, 191, 1);
+  --main-color3: rgba(171, 60, 164, 1);
+  --main-color4: rgba(97, 14, 154, 1);
+  --main-color5: rgba(250, 239, 177, 1);
+  --main-color6: rgba(251, 173, 131, 1);
+  --dark-background-color:rgb(72, 71, 71);
+  --footer-color: #584C4C;
+  --text-color-dark: rgba(61, 57, 81, 1); /*nav*/
+  --text-color-light: rgba(252, 255, 233, 1);
+}
+

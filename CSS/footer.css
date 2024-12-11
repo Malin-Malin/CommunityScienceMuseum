@@ -1,0 +1,135 @@
+/* footer */
+.footer-margin-top {
+    margin-top: -200px;
+    position: relative;
+}
+
+#footer-top svg {
+    display: block;
+   z-index: 100; 
+}
+
+.footer-content {
+    display: flex;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    color: #ccc;
+    background-color: var(--footer-color);
+    font-family: "Arial", sans-serif;
+    position: relative;
+    padding: 0 50px;
+}
+
+@media (max-width: 1020px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* section 1 */
+.contact-info {
+    flex: 1;
+    min-width: 250px;
+    gap: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    /* font-style: ; */
+    color: #ccc;
+    margin: 0;
+
+}
+
+.contact-info p {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+
+}
+
+.contact-info p i {
+    flex-shrink: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.Sosial-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 200px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/* section 2 */
+.logo-container {
+    display: flex;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.logo-footer-image {
+    max-width: 300px;
+    height: auto;
+}
+
+@media (max-width:550px){
+    .logo-footer-image {
+        max-width: 100px;
+        height: auto;
+    } 
+    .logo-container {
+        justify-content: flex-start;
+        margin-top: -40PX;
+        margin-bottom: 30PX;
+    }
+}
+
+
+
+/* section 3 */
+.newsletter {
+    flex: 1;
+    min-width: 200px;
+    text-align: end;
+    color: #ccc;
+}
+
+.newsletter input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    flex: 1;
+}
+
+.newsletter button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #f0e68c;
+    color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: rgba(251, 173, 131, 1);
+    transform: scale(1.05);
+}
+
+@media (max-width:400px){
+    .newsletter{
+        font-size: 0.5rem;
+        margin-top: 30px;
+    }
+}
+.fa-brands,
+.fa-solid {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    color: #ccc;
+}
