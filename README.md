@@ -1,5 +1,5 @@
 # CommunityScienceMuseum
-his project is part of Semester Project 1 for front-end development studies. The task was to design and code a website for the fictional Community Science Museum, focusing on usability and visual appeal.
+This project is part of Semester Project 1 for front-end development studies. The task was to design and code a website for the fictional Community Science Museum, focusing on usability and visual appeal.
 
 Features
 Homepage: Overview of exhibitions and call-to-action.
