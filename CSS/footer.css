@@ -37,10 +37,9 @@
 }
 
 .contact-info a {
-    /* font-style: ; */
     color: #ccc;
     margin: 0;
-
+    text-align: left;
 }
 
 .contact-info p {
