@@ -3,10 +3,15 @@ This project is part of Semester Project 1 for front-end development studies. Th
 
 
 Features
+
 Homepage: Overview of exhibitions and call-to-action.
+
 Responsive Design: Adapts to various screen sizes.
+
 Header/Footer: Consistent and user-friendly.
+
 Exhibition Pages: Key exhibitions with images and descriptions.
+
 Contact Page: Form and contact details.
 
 
