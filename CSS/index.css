@@ -1,6 +1,5 @@
 
-body.index-page
-{
+body.index-page {
     background-color: aliceblue;
 }
 
@@ -24,8 +23,8 @@ body.index-page
 
 @media (max-width: 768px) {
     .image-index {
-        height: 600px; /* Mindre høyde for små skjermer */
-        margin-top: -30px; /* Juster plasseringen */
+        height: 600px;
+        margin-top: -30px; 
     }
 }
 
@@ -39,18 +38,19 @@ body.index-page
 .index-page h1{
     color: var(--text-color-light);
     position: absolute;
-    top: 8%; /* Plassering i midten vertikalt */
+    top: 8%; 
     left: 11%;
   }
 
-/* exhibition spaces*/
 
+/* exhibition spaces*/
 .wrapper {
-    display: flex; /* Aktiverer Flexbox */
-    justify-content: center; /* Horisontal midtstilling */
+    display: flex;
+    justify-content: center;
     align-items: center; 
     margin-bottom: 50px;
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -92,9 +92,7 @@ body.index-page
 .container-index-2 {
     position: relative;
     width: 100%;
-    height: 650px;
-    /* overflow: hidden;  */
-    
+    height: 650px;   
 }
 
 .poster-img {
@@ -105,9 +103,9 @@ body.index-page
 }
 
 .flex-container {
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-container a {
@@ -128,7 +126,7 @@ justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr); 
     max-width: 1300px;
-    margin: 0 auto; /* Sentrer containeren på siden */
+    margin: 0 auto;
     padding: 10px;
 }
 

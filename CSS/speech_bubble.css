@@ -199,3 +199,7 @@
         left: 10%;
         transform: translateX(-50%) rotate(0deg);
     } */
+
+    @media (max-width: 900px) {
+        
+    }

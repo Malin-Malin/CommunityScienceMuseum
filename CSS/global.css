@@ -18,11 +18,6 @@ body {
   line-height: 1.5;
   text-align: center;
 }
-/* 
-main {
-  margin-top: 320px; 
-} */
-
 
 /*Buttons*/
 .button {
@@ -58,24 +53,22 @@ main {
     background-color: var(--main-color3)
 }
 
-
 .style-2{
-    margin-top: 100px;
-    background-color: var(--main-color3);
-    white-space: normal;   
+  margin-top: 100px;
+  background-color: var(--main-color3);
+  white-space: normal;   
 }
-  
-  
-  .style-2:hover {
-    background-color: var(--main-color4);
-  }
-  
+
+.style-2:hover {
+  background-color: var(--main-color4);
+}
+
 
 .style-3 {
   margin: 30px;
-    min-width: 200px;
-    background-color: var(--main-color4);
-    white-space: normal;
+  min-width: 200px;
+  background-color: var(--main-color4);
+  white-space: normal;
 }
 
 
@@ -119,7 +112,7 @@ h4{
   font-weight: 400;
 }
 
-h5,{
+h5{
   font-size: 1em;
   font-weight: 300;
 }
@@ -146,20 +139,10 @@ h6{
   font-weight: 900;
   font-style: normal;
 }
-/* 
-.full-width-image {
-  width: 100%; 
-  height: auto; 
-} */
 
 .light-text-color {
   color: var( --text-color-light)
 }
-
-
-/* _________________________________________ */
-
-
 
 /* variables */
 :root{

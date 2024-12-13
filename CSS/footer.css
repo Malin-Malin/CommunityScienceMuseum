@@ -46,16 +46,9 @@
     display: flex;
     align-items: center;
     gap: 3px;
-
 }
 
-.contact-info p i {
-    flex-shrink: 0;
-    font-size: 16px;
-    color: #fff;
-}
-
-.Sosial-icons {
+.social-icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
