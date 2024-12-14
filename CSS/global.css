@@ -203,3 +203,9 @@ h6{
 .container-1 .full-width-image {
   height: 600px;
 }
+
+@media (max-width:900px) {
+  .container-1 .full-width-image {
+      height: 250px;
+  }
+}

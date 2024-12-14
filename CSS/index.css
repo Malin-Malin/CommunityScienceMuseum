@@ -1,7 +1,7 @@
-
+/* 
 body.index-page {
     background-color: aliceblue;
-}
+} */
 
 .full-width-image {
     width: 100%; 
@@ -9,7 +9,7 @@ body.index-page {
     object-fit: cover;
     display: block; 
     z-index: 1;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 @media (max-width: 1300px){
@@ -99,12 +99,14 @@ max-width: 200px;
 .image-container {
     position: relative;
     width: 100vw;
-    height: 850px;
 }
 
+@media (min-width:900px) {
+    .image-container {
+        height: 850px;
+    }
+}
 .regular-image {
-    width: 100%;
-    height: 100%;
     display: block;
 }
 
