@@ -41,7 +41,7 @@
             </ul>
         </section>
         <section aria-label="Hamburger menu" class="hamburger-header">
-            <input type="checkbox" id="menu-checkbox" aria-expanded="false" />
+            <input type="checkbox" id="menu-checkbox">
             <label for="menu-checkbox" aria-label="Open menu"><i class="fas fa-bars"></i></label>   
             <div class="header-title">
                 <p class="header-title-top">
@@ -66,8 +66,17 @@
         </section>
     </header>
     <main>
-        <section class="container-index-1 section-with-bubble">
-            <h1>Visiting Professor of Aeronautics</h1>
+        <h1>Visiting Professor of Aeronautics</h1>
+        <section class="container-1">
+            <div class="speech-bubble-container speech-bottom-right">
+                <div class="speech-bubble">
+                    <article>
+                        Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
+                        latest exploration of the planets in our solar system.
+                    </article>
+                </div>
+                <img src="../images/astronaut_cartoon_3.png" alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!">
+            </div>
             <img src="../images/space_travel.jpg" alt="Futuristic cartoon-style illustration of a spaceship traveling through space, with planets and stars in the background."
                 class="full-width-image ">
             <div class="speech-bubble-container speech-bottom-left">
@@ -80,15 +89,6 @@
                     </article>
                 </div>
                 <img src="../images/astronaut_cartoon_2.png" alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!">
-            </div>
-            <div class="speech-bubble-container speech-bottom">
-                <div class="speech-bubble">
-                    <article>
-                        Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to the
-                        latest exploration of the planets in our solar system.
-                    </article>
-                </div>
-                <img src="../images/astronaut_cartoon_3.png" alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!">
             </div>
         </section>
     </main>
@@ -139,8 +139,8 @@
                 <div>
                     <h3>Sign up for newsletter</h3>
                     <form>
-                        <input aria-label="Enter your email" type="email" placeholder="Your email">
-                        <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                        <input aria-label="Enter your email" name="email" autocomplete="email" type="email" placeholder="Your email">
+                        <button type="submit" name="submit" aria-label="Subscribe to newsletter">Subscribe</button>
                     </form>
                 </div>
                 <p><br>&copy; Malin Skrettingland<br>All rights reserved</p>

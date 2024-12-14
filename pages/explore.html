@@ -45,7 +45,7 @@
             </ul>
         </section>
         <section aria-label="Hamburger menu" class="hamburger-header">
-            <input type="checkbox" id="menu-checkbox" aria-expanded="false" />
+            <input type="checkbox" id="menu-checkbox">
             <label for="menu-checkbox" aria-label="Open menu"><i class="fas fa-bars"></i></label>   
             <div class="header-title">
                 <p class="header-title-top">
@@ -179,8 +179,8 @@
                 <div>
                     <h3>Sign up for newsletter</h3>
                     <form>
-                        <input aria-label="Enter your email" type="email" placeholder="Your email">
-                        <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                        <input aria-label="Enter your email" name="email" autocomplete="email" type="email" placeholder="Your email">
+                        <button type="submit" name="submit" aria-label="Subscribe to newsletter">Subscribe</button>
                     </form>
                 </div>
                 <p><br>&copy; Malin Skrettingland<br>All rights reserved</p>

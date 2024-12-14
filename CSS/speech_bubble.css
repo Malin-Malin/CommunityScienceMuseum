@@ -8,6 +8,29 @@
     max-width: 500px;
 }
 
+@media (max-width:900px){
+    .speech-bubble-container{
+        position: relative;
+        max-width: 900px;
+        width: 100%;
+    }
+    .speech-bottom,
+    .speech-top,
+    .speech-center,
+    .speech-top-left,
+    .speech-bottom-left,
+    .speech-bottom-right {
+        top: 0px !important; 
+        left: 0px !important;
+        right: 0px !important;
+        bottom: 0px !important;
+    }
+    .speech-bubble::before,
+    .speech-bubble::after {
+        display: none;
+    }
+}
+
 /* The bubble */
 .speech-bubble-container .speech-bubble {
     position: relative; 
@@ -32,8 +55,8 @@
 /* Astronaut */
 .speech-bubble-container img{
     position: relative;
-    width: 200px; /* Størrelse på astronauten */
-    height: auto; /* Bevarer proporsjonene */
+    width: 200px;
+    height: auto;
     z-index: 5;
 }
 
@@ -59,124 +82,139 @@
 }
 
 /* --- Bottom placement ----------------- */
-    /* Container placement bottom */
-    .speech-bottom{
-        top: 21%; /* Plassering i midten vertikalt */
-        left: 60%; /* Plassering i midten horisontalt */
-    }
-    /* Plasser trekanten på bunnen*/
-    .speech-bottom .speech-bubble::before,
-    .speech-bottom .speech-bubble::after {
-        bottom: -32px;
-        left: 30%;
-        transform: translateX(-50%) rotate(0deg);
-    }
-    /* Plasser trekanten på bunnen*/
-    .speech-bottom .speech-bubble::before,
-    .speech-bottom .speech-bubble::after {
-        bottom: -32px;
-        left: 30%;
-        transform: translateX(-50%) rotate(0deg);
-    }
-    /* Place astronaut */
-    .speech-bottom img {
-        bottom: 20px;
+/* Container placement bottom */
+.speech-bottom{
+    top: 23%;
+    right: 15%;
+}
+
+/* Arrow */
+.speech-bottom .speech-bubble::before,
+.speech-bottom .speech-bubble::after {
+    bottom: -31px;
+    left: 30%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.speech-bottom .speech-bubble::before,
+.speech-bottom .speech-bubble::after {
+    bottom: -31px;
+    left: 30%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+/* Place astronaut */
+.speech-bottom img {
+    bottom: 20px;
+    left: -10px;
+}
+
+/* --- bottom left placement ----------------- */
+/* Container placement bottom left */
+.speech-bottom-left{
+    top: 50px;
+    left: 1%;
+}
+
+/* Arrow */
+.speech-bottom-left .speech-bubble::before,
+.speech-bottom-left .speech-bubble::after {
+    bottom: -32px;
+    left: 60%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+/* Place astronaut */
+    .speech-bottom-left img {
         left: -10px;
     }
 
-        /* --- bottom left placement ----------------- */
-    /* Container placement bottom left */
-    .speech-bottom-left{
-        top: 29%; /* Plassering i midten vertikalt */
-        right: 70%; /* Plassering i midten horisontalt */
-    }
-    /* Plasser trekanten på bunnen*/
-    .speech-bottom-left .speech-bubble::before,
-    .speech-bottom-left .speech-bubble::after {
-        bottom: -32px;
-        left: 60%;
-        transform: translateX(-50%) rotate(0deg);
-    }
-    
-    /* Place astronaut */
-        .speech-bottom-left img {
-            left: -10px;
-        }
+/* --- Bottom right placement ----------------- */
+/* Container placement bottom */
+.speech-bottom-right{
+    bottom: 30px;
+    right: 15px;
+}
+
+/* Arrow */
+.speech-bottom-right .speech-bubble::before,
+.speech-bottom-right .speech-bubble::after {
+    bottom: -31px;
+    left: 30%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+.speech-bottom-right .speech-bubble::before,
+.speech-bottom-right .speech-bubble::after {
+    bottom: -31px;
+    left: 30%;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+/* Place astronaut */
+.speech-bottom-right img {
+    bottom: 20px;
+    left: -10px;
+}
 
 /* --- center placement ----------------- */
-    /* Container placement center */
-    .speech-center{
-        top: 9%; /* Plassering i midten vertikalt */
-        left: 32%; /* Plassering i midten horisontalt */
-    }
-    /* Plasser trekanten på bunnen*/
-    .speech-center .speech-bubble::before,
-    .speech-center .speech-bubble::after {
-        bottom: -32px;
-        left: 90%;
-        transform: translateX(-50%) rotate(0deg);
-    }
+/* Container placement center */
+.speech-center{
+    top: 10%;
+    left: 20%;
+}
 
-    /* --- Top right placement ----------------- */
-    /* Container placement top */
-    .speech-top{
-        top: 19%; /* Plassering i midten vertikalt */
-        left: 62%; /* Plassering i midten horisontalt */
-    }
-    /* Plasser trekanten på bunnen*/
-    .speech-top .speech-bubble::before,
-    .speech-top .speech-bubble::after {
-        top: -22%;
-        left: 30%;
-        transform: translateX(-50%) rotate(180deg);
-    }
+/* Arrow */
+.speech-center .speech-bubble::before,
+.speech-center .speech-bubble::after {
+    bottom: -32px;
+    left: 90%;
+    transform: translateX(-50%) rotate(0deg);
+}
 
-       /* Place astronaut */
-       .speech-top img {
-        top: -330px;
-        transform: scaleX(-1);
-    }
+/* --- Top right placement ----------------- */
+/* Container placement top */
+.speech-top{
+    top: 56%;
+    right: 15%;
+}
 
-       /* --- Top left placement ----------------- */
-    /* Container placement top */
-    .speech-top-left{
-        top: 15%; /* Plassering i midten vertikalt */
-        right: 72%; /* Plassering i midten horisontalt */
-    }
-    /* Plasser trekanten på bunnen*/
-    .speech-top-left .speech-bubble::before,
-    .speech-top-left .speech-bubble::after {
-        top: 25%;
-        left: -7%;
-        transform: translateX(-50%) rotate(90deg);
-    }
+/* Arrow */
+.speech-top .speech-bubble::before,
+.speech-top .speech-bubble::after {
+    top: -40%;
+    left: 30%;
+    transform: translateX(-50%) rotate(180deg);
+}
 
-       /* Place astronaut */
-       .speech-top-left img {
-        top: -120px;
-        left: -200px;
-        transform: translateZ(90);
-        transform: scaleX(-1);
-    }
-        
-    
+/* --- Top left placement ----------------- */
+/* Container placement top */
+.speech-top-left{
+    top: 30%;
+    left: 15%;
+}
 
-    /* Plasser trekanten på bunnen*/
-    /* .speech-top .speech-bubble::before,
-    .speech-top .speech-bubble::after {
-        bottom: -32px;
-        left: 30%;
-        transform: translateX(-50%) rotate(0deg); 
-    }*/
+/* Arrow */
+.speech-top-left .speech-bubble::before,
+.speech-top-left .speech-bubble::after {
+    top: 25%;
+    left: -7%;
+    transform: translateX(-50%) rotate(90deg);
+}
 
+/* Place astronaut */
+.speech-top-left img {
+    top: -120px;
+    left: -200px;
+    transform: translateZ(90);
+    transform: scaleX(-1);
+}
 
-    /* Place astronaut */
-    .speech-top img {
-        bottom: 20px;
-        left: -10px;
-    }
-
-
+/* Place astronaut */
+.speech-top img {
+    bottom: 20px;
+    left: -10px;
+}
 
 /* Astronaut without bobble */
 .astronaut {
@@ -186,20 +224,20 @@
 
 
 
-    /* --- Top placement ----------------- */
-    /* Container placement top */
-    /* .speech-top{
-        top: 9%; /* Plassering i midten vertikalt */
-        /* left: 32%; /* Plassering i midten horisontalt */
-    /* } */ 
-    /* Plasser trekanten på bunnen*/
-    /* .speech-top .speech-bubble::before,
-    .speech-top .speech-bubble::after {
-        bottom: -32px;
-        left: 10%;
-        transform: translateX(-50%) rotate(0deg);
-    } */
+/* --- Top placement ----------------- */
+/* Container placement top */
+/* .speech-top{
+    top: 9%; /* Plassering i midten vertikalt */
+    /* left: 32%; /* Plassering i midten horisontalt */
+/* } */ 
+/* Plasser trekanten på bunnen*/
+/* .speech-top .speech-bubble::before,
+.speech-top .speech-bubble::after {
+    bottom: -32px;
+    left: 10%;
+    transform: translateX(-50%) rotate(0deg);
+} */
 
-    @media (max-width: 900px) {
-        
-    }
+@media (max-width: 900px) {
+    
+}

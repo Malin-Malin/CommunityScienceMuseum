@@ -47,7 +47,7 @@
             </ul>
         </section>
         <section aria-label="Hamburger menu" class="hamburger-header">
-            <input type="checkbox" id="menu-checkbox" aria-expanded="false" />
+            <input type="checkbox" id="menu-checkbox">
             <label for="menu-checkbox" aria-label="Open menu"><i class="fas fa-bars"></i></label>   
             <div class="header-title">
                 <p class="header-title-top">
@@ -76,8 +76,6 @@
     <main>
         <h1>Energetica Exhibition on loan</h1>
         <div class="container-exhibition">
-            <img src="../images/energi_exhibit.jpg" alt="Cartoon-style energy exhibit with wind turbines, solar panels, and a sun."
-                class="full-width-image image-index">
             <div class="speech-bubble-container speech-bottom">
                 <div class="speech-bubble">
                     <article>
@@ -92,6 +90,8 @@
                 <img src="../images/astronaut_cartoon_1.png" alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!"
                     class="astronaut">
             </div>
+            <img src="../images/energi_exhibit.jpg" alt="Cartoon-style energy exhibit with wind turbines, solar panels, and a sun."
+                class="full-width-image">
         </div>
     </main>
     <footer class=" footer">
@@ -141,8 +141,8 @@
                 <div>
                     <h3>Sign up for newsletter</h3>
                     <form>
-                        <input aria-label="Enter your email" type="email" placeholder="Your email">
-                        <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                        <input aria-label="Enter your email" name="email" autocomplete="email" type="email" placeholder="Your email">
+                        <button type="submit" name="submit" aria-label="Subscribe to newsletter">Subscribe</button>
                     </form>
                 </div>
                 <p><br>&copy; Malin Skrettingland<br>All rights reserved</p>

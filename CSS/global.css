@@ -54,6 +54,14 @@ body {
     font-weight: bold;
     z-index: 2;
 }
+@media (max-width:600px) {
+  .inner-button{
+    padding: 0px 10px;
+  } 
+  .button{
+    font-size: 1rem;
+  }
+}
 
 .style-1:hover {
     background-color: var(--main-color3)
@@ -74,6 +82,7 @@ body {
   min-width: 200px;
   background-color: var(--main-color4);
   white-space: normal;
+
 }
 
 .style-3:hover {
@@ -83,6 +92,7 @@ background-color: var(--main-color2);
 .button-container{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @media (max-width:1040px){
@@ -117,6 +127,11 @@ h1{
   font-size: 2.2em;
   z-index: 1;
   font-weight: 900;
+}
+@media (max-width:600px) {
+  h1{
+    font-size: 1.8rem;
+  }  
 }
 
 h2{
@@ -180,3 +195,11 @@ h6{
   --text-color-light: rgba(252, 255, 233, 1);
 }
 
+.container-1 {
+  position: relative;
+  overflow: hidden;
+  
+}
+.container-1 .full-width-image {
+  height: 600px;
+}

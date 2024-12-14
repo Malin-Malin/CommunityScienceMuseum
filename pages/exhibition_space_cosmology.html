@@ -43,7 +43,7 @@
             </ul>
         </section>
         <section aria-label="Hamburger menu" class="hamburger-header">
-            <input type="checkbox" id="menu-checkbox" aria-expanded="false" />
+            <input type="checkbox" id="menu-checkbox">
             <label for="menu-checkbox" aria-label="Open menu"><i class="fas fa-bars"></i></label>   
             <div class="header-title">
                 <p class="header-title-top">
@@ -71,10 +71,19 @@
     </header>
     <main>
         <h1>Cosmology</h1>
-        <section class="container-index-1 section-with-bubble">
-            <img src="../images/space.jpg" alt="Cartoon illustration of a space scene featuring a satellite, UFOs, and colorful planets, with stars in the background."
-                class="full-width-image image-index">
+        <section class="container-1">
             <div class="speech-bubble-container speech-bottom-left">
+                <div class="speech-bubble">
+                    <article>
+                        Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to
+                        the latest exploration of the planets in our solar system.
+                    </article>
+                </div>
+                <img src="../images/astronaut_cartoon_2.png" alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!">
+            </div>    
+            <img src="../images/space.jpg" alt="Cartoon illustration of a space scene featuring a satellite, UFOs, and colorful planets, with stars in the background."
+            class="full-width-image">
+            <div class="speech-bubble-container speech-bottom-right">
                 <div class="speech-bubble">
                     <article>
                         We’ll locate the various constellations and galaxies that can be seen and learn a bit about the
@@ -82,15 +91,6 @@
                         Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the
                         night
                         sky and what we can see and know about the universe around us.
-                    </article>
-                </div>
-                <img src="../images/astronaut_cartoon_2.png" alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!">
-            </div>
-            <div class="speech-bubble-container speech-bottom">
-                <div class="speech-bubble">
-                    <article>
-                        Follow the journey of our solar exploration: from early Arab traders, to Galileo’s telescope, to
-                        the latest exploration of the planets in our solar system.
                     </article>
                 </div>
                 <img src="../images/astronaut_cartoon_1.png"alt="A cartoon astronaut in a white spacesuit eagerly grabs your attention, ready to show you something exciting!">
@@ -144,8 +144,8 @@
                 <div>
                     <h3>Sign up for newsletter</h3>
                     <form>
-                        <input aria-label="Enter your email" type="email" placeholder="Your email">
-                        <button type="submit" aria-label="Subscribe to newsletter">Subscribe</button>
+                        <input aria-label="Enter your email" name="email" autocomplete="email" type="email" placeholder="Your email">
+                        <button type="submit" name="submit" aria-label="Subscribe to newsletter">Subscribe</button>
                     </form>
                 </div>
                 <p><br>&copy; Malin Skrettingland<br>All rights reserved</p>
