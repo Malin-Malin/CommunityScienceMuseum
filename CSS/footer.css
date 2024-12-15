@@ -26,6 +26,12 @@
         align-items: center;
     }
 }
+@media (max-width: 600px) {
+    .footer-content {
+        align-items: normal;
+        padding: 10px;
+    }
+}
 
 /* section 1 */
 .contact-info {
@@ -69,19 +75,21 @@
     height: auto;
 }
 
-@media (max-width:550px){
+@media (max-width:600px){
     .logo-footer-image {
         max-width: 100px;
         height: auto;
     } 
     .logo-container {
-        justify-content: flex-start;
+        justify-content: center;
+        align-content: center;
         margin-top: -40PX;
         margin-bottom: 30PX;
     }
+    .logo-container .header-title{
+        display: none;
+    }
 }
-
-
 
 /* section 3 */
 .newsletter {
@@ -115,7 +123,7 @@
 @media (max-width:400px){
     .newsletter{
         font-size: 0.5rem;
-        margin-top: 30px;
+        margin-top: 30xpx;
     }
 }
 .fa-brands,

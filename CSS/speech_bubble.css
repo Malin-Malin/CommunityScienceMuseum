@@ -32,7 +32,7 @@
 }
 
 /* The bubble */
-.speech-bubble-container .speech-bubble {
+.speech-bubble {
     position: relative; 
     background: var(--text-color-light);
     border-radius: 15px;
@@ -206,10 +206,15 @@
 .speech-top-left img {
     top: -120px;
     left: -200px;
-    transform: translateZ(90);
     transform: scaleX(-1);
 }
 
+@media (max-width:900px){
+    .speech-top-left img{
+        top: 0px;
+        left: -10px;
+    }
+}
 /* Place astronaut */
 .speech-top img {
     bottom: 20px;
@@ -219,7 +224,7 @@
 /* Astronaut without bobble */
 .astronaut {
     width: 250px;
-    height: auto; 
+    height: auto;
 }
 
 
@@ -237,7 +242,3 @@
     left: 10%;
     transform: translateX(-50%) rotate(0deg);
 } */
-
-@media (max-width: 900px) {
-    
-}
