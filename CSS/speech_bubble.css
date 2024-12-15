@@ -215,6 +215,7 @@
         left: -10px;
     }
 }
+
 /* Place astronaut */
 .speech-top img {
     bottom: 20px;
@@ -226,19 +227,3 @@
     width: 250px;
     height: auto;
 }
-
-
-
-/* --- Top placement ----------------- */
-/* Container placement top */
-/* .speech-top{
-    top: 9%; /* Plassering i midten vertikalt */
-    /* left: 32%; /* Plassering i midten horisontalt */
-/* } */ 
-/* Plasser trekanten på bunnen*/
-/* .speech-top .speech-bubble::before,
-.speech-top .speech-bubble::after {
-    bottom: -32px;
-    left: 10%;
-    transform: translateX(-50%) rotate(0deg);
-} */

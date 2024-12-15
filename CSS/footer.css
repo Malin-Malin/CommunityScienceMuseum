@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     color: #ccc;
     background-color: var(--footer-color);
-    font-family: "Arial", sans-serif;
+    font-family: "Merriweather", serif;
     position: relative;
     padding: 0 50px;
 }
@@ -28,7 +28,6 @@
 }
 @media (max-width: 600px) {
     .footer-content {
-        align-items: normal;
         padding: 10px;
     }
 }
@@ -81,14 +80,15 @@
         height: auto;
     } 
     .logo-container {
-        justify-content: center;
-        align-content: center;
         margin-top: -40PX;
         margin-bottom: 30PX;
     }
     .logo-container .header-title{
         display: none;
     }
+    .newsletter{
+        font-size: 0.8rem;
+    } */
 }
 
 /* section 3 */
@@ -120,12 +120,6 @@
     transform: scale(1.05);
 }
 
-@media (max-width:400px){
-    .newsletter{
-        font-size: 0.5rem;
-        margin-top: 30xpx;
-    }
-}
 .fa-brands,
 .fa-solid {
     display: flex;

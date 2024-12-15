@@ -136,7 +136,6 @@
     grid-template-columns: 1fr;
 }
 
-
 /* ----- Hamburger menu---------- */
 #menu-checkbox {
     display: none;
@@ -153,45 +152,37 @@
     .navbar-list {
         display: none; 
     }
-
     .sticky-header .header-background,
     .sticky-header .nav-container,
     .static-header {
         display: none;
     }
-
     #menu-checkbox:checked ~ .navbar-list {
         display: flex;
         flex-direction: column;
     }
-
     .nav-container {
         display: none;
     }
-
     .hamburger-header {
         display: block;
         padding: 30px;
         text-align: left;
         background-color: var(--footer-color);
     }
-
     #menu-checkbox {
         z-index: 10;
         left: 0px;
     }
-
     .fa-bars{
         font-size: 50px;
         position: absolute;
         z-index: 10;
     }
-
     .hamburger-header .header-title {
         top: 0;
         z-index: 5;
     }
-    
     .hamburger-header .logo-footer-image {
         right: 1%; 
         width: auto;
@@ -207,12 +198,10 @@
         width: 100px;
         height: auto;
     }
-
     .header-title-top, .header-title-bottom {
         font-size: 20px;
         margin: 0px;
-        }
-        
+        } 
     .header-title-mid {
         font-size: 40px;
         margin: -10px;

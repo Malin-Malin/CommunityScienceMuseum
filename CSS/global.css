@@ -19,11 +19,6 @@ body {
   text-align: center;
 }
 
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
-
 /*Buttons*/
 .button {
   border-radius: 10px;
@@ -81,7 +76,6 @@ body {
   min-width: 200px;
   background-color: var(--main-color4);
   white-space: normal;
-
 }
 
 .style-3:hover {
@@ -125,7 +119,6 @@ h1, h2, h3 {
 h4, h5, h6, button, li, a, span{
   font-family: "Londrina Solid-light", sans-serif; 
 }
-
 
 body, article, p {
   font-family: "Merriweather", serif;
@@ -203,6 +196,7 @@ h6{
   --text-color-light: rgba(252, 255, 233, 1);
 }
 
+/* Common class */
 .full-width-image {
   width: 100%; 
   height: 100%;

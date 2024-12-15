@@ -1,5 +1,4 @@
 /* Visit */
-
 .visit-page {
     display: grid;
     grid-template-columns: 1fr 2fr; 
@@ -31,9 +30,11 @@
     grid-row: 2;
     grid-column: 1;
 }
+
 #hours div {
     border-color: var(--main-color2);
 }
+
 #hours .astronaut {
     margin-left: 15px;
     bottom: -50px;
@@ -46,9 +47,11 @@
     text-align: start;
     font-weight: 300;
 }
+
 #location div {
     border-color: var(--main-color4); /* Mørkere lilla */
 }
+
 #location .astronaut{
     margin-right: 0px;
     bottom: -15px;
@@ -60,9 +63,11 @@
     grid-column:2/4;
     text-align: start;
 }
+
 #accessibility div{
     border-color: var(--main-color3); /* Lilla farge */
 }
+
 #accessibility .astronaut{
     margin-right: 10px;
     bottom: -90px;
@@ -97,9 +102,11 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
 }
+
 .info-container .info-box article{
     min-width: 150px;
 }
+
 .info-container .info-box h3 {
     margin: 0px;
 }
@@ -107,6 +114,7 @@
 .info-container .info-box li {
     list-style: none;
 }
+
 .info-container .info-box ul {
     padding: 0px;
 }

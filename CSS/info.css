@@ -1,26 +1,3 @@
-
-
- /* noe er feil ved denne. vil ikke bli mindre*/
- .section-divider{
-    background-color: var(--main-color6);
-    width: 100vw;
-    margin:0;
-    padding: 40px 0;
- }
-
-/*
- @media (max-width: 800px) {
-   .section-divider {
-       height: 15vh; 
-   }
-}
-
-@media (max-width: 500px) {
-   .section-divider {
-       height: 10vh; 
-   }
-}*/
-
  .content-container {
    display: flex;
    align-items: center;
