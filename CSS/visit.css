@@ -124,7 +124,6 @@
 }
 
 @media (max-width: 1200px) {
-
     .info-box{
         flex-direction: column;
     }

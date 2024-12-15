@@ -135,13 +135,6 @@
     transform: translateX(-50%) rotate(0deg);
 }
 
-.speech-bottom-right .speech-bubble::before,
-.speech-bottom-right .speech-bubble::after {
-    bottom: -31px;
-    left: 30%;
-    transform: translateX(-50%) rotate(0deg);
-}
-
 /* Place astronaut */
 .speech-bottom-right img {
     bottom: 20px;
