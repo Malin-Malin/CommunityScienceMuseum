@@ -1,9 +1,4 @@
 /* footer */
-.footer-margin-top {
-    margin-top: -200px;
-    position: relative;
-}
-
 #footer-top svg {
     display: block;
    z-index: 100; 
@@ -88,7 +83,7 @@
     }
     .newsletter{
         font-size: 0.8rem;
-    } */
+    }
 }
 
 /* section 3 */

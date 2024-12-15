@@ -77,11 +77,6 @@
     text-wrap:nowrap;
 }
 
-.navbar-index li{
-    padding: 20px 65px;
-    font-size: 20px;
-}
-
 .navbar-list li:hover {
     background-color: var(--main-color6);
     transform: scale(1.2); 

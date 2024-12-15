@@ -55,7 +55,11 @@
 #location .astronaut{
     margin-right: 0px;
     bottom: -15px;
- }
+}
+
+#location .info-box {
+    flex-direction: column;
+}
 
 /* Accessibility box */
 #accessibility {

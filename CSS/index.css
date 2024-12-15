@@ -1,8 +1,3 @@
-/* 
-body.index-page {
-    background-color: aliceblue;
-} */
-
 @media (max-width: 1300px){
     .container-index-1 {
         margin-top: 160px;
@@ -50,7 +45,7 @@ body.index-page {
     .grid-container {
         grid-template-columns: repeat(1, 1fr);
     }
-    .wraper {
+    .wrapper {
         max-width: 200px;
     }
 }

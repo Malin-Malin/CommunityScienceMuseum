@@ -16,8 +16,6 @@
     }
     .speech-bottom,
     .speech-top,
-    .speech-center,
-    .speech-top-left,
     .speech-bottom-left,
     .speech-bottom-right {
         top: 0px !important; 
@@ -96,13 +94,6 @@
     transform: translateX(-50%) rotate(0deg);
 }
 
-.speech-bottom .speech-bubble::before,
-.speech-bottom .speech-bubble::after {
-    bottom: -31px;
-    left: 30%;
-    transform: translateX(-50%) rotate(0deg);
-}
-
 /* Place astronaut */
 .speech-bottom img {
     bottom: 20px;
@@ -157,21 +148,6 @@
     left: -10px;
 }
 
-/* --- center placement ----------------- */
-/* Container placement center */
-.speech-center{
-    top: 10%;
-    left: 20%;
-}
-
-/* Arrow */
-.speech-center .speech-bubble::before,
-.speech-center .speech-bubble::after {
-    bottom: -32px;
-    left: 90%;
-    transform: translateX(-50%) rotate(0deg);
-}
-
 /* --- Top right placement ----------------- */
 /* Container placement top */
 .speech-top{
@@ -185,35 +161,6 @@
     top: -40%;
     left: 30%;
     transform: translateX(-50%) rotate(180deg);
-}
-
-/* --- Top left placement ----------------- */
-/* Container placement top */
-.speech-top-left{
-    top: 30%;
-    left: 15%;
-}
-
-/* Arrow */
-.speech-top-left .speech-bubble::before,
-.speech-top-left .speech-bubble::after {
-    top: 25%;
-    left: -7%;
-    transform: translateX(-50%) rotate(90deg);
-}
-
-/* Place astronaut */
-.speech-top-left img {
-    top: -120px;
-    left: -200px;
-    transform: scaleX(-1);
-}
-
-@media (max-width:900px){
-    .speech-top-left img{
-        top: 0px;
-        left: -10px;
-    }
 }
 
 /* Place astronaut */
