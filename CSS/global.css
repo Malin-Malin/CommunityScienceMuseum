@@ -3,7 +3,8 @@
 @import url(./header.css);
 @import url(./speech_bubble.css);
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,49 +19,49 @@ body {
 /*Buttons*/
 .button {
   border-radius: 10px;
-  cursor: pointer; 
+  cursor: pointer;
   font-size: 1.2rem;
-  border: none; 
-  transition: background-color 0.3s ease; 
+  border: none;
+  transition: background-color 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 15px 15px;
   margin: 10px;
   max-width: 400px;
 }
 
-.style-1{
-    background-color: var(--main-color2);
-    white-space: nowrap;
-    min-width: 200px;
+.style-1 {
+  background-color: var(--main-color2);
+  white-space: nowrap;
+  min-width: 200px;
 }
 
-.inner-button{
-    place-items: center;
-    background-color: white;
-    padding: 0px 90px; 
-    border-radius: 10px;
-    color: var(--text-color-dark); 
-    display: inline-block; 
-    font-weight: bold;
-    z-index: 2;
+.inner-button {
+  place-items: center;
+  background-color: white;
+  padding: 0px 90px;
+  border-radius: 10px;
+  color: var(--text-color-dark);
+  display: inline-block;
+  font-weight: bold;
+  z-index: 2;
 }
-@media (max-width:600px) {
-  .inner-button{
+@media (max-width: 600px) {
+  .inner-button {
     padding: 0px 10px;
-  } 
-  .button{
+  }
+  .button {
     font-size: 1rem;
   }
 }
 
 .style-1:hover {
-    background-color: var(--main-color3)
+  background-color: var(--main-color3);
 }
 
-.style-2{
+.style-2 {
   margin-top: 100px;
   background-color: var(--main-color3);
-  white-space: normal;   
+  white-space: normal;
 }
 
 .style-2:hover {
@@ -75,19 +76,18 @@ body {
 }
 
 .style-3:hover {
-background-color: var(--main-color2);
+  background-color: var(--main-color2);
 }
 
-.button-container{
+.button-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-@media (max-width:1040px){
-  .button-container{
+@media (max-width: 1040px) {
+  .button-container {
     flex-direction: column-reverse;
-   
   }
   .style-3 {
     margin: 10px;
@@ -98,7 +98,7 @@ background-color: var(--main-color2);
   }
 }
 
-@media (max-width:600px){
+@media (max-width: 600px) {
   .style-3 {
     width: 300px;
   }
@@ -107,90 +107,100 @@ background-color: var(--main-color2);
   }
 }
 
-/* Font*/ 
-h1, h2, h3 {
-  font-family: "Londrina Solid", sans-serif; 
+/* Font*/
+h1,
+h2,
+h3 {
+  font-family: "Londrina Solid", sans-serif;
 }
 
-h4, h5, h6, button, li, a, span{
-  font-family: "Londrina Solid-light", sans-serif; 
+h4,
+h5,
+h6,
+button,
+li,
+a,
+span {
+  font-family: "Londrina Solid-light", sans-serif;
 }
 
-body, article, p {
+body,
+article,
+p {
   font-family: "Merriweather", serif;
 }
 
-h1{
+h1 {
   font-size: 2.2em;
   z-index: 1;
   font-weight: 900;
 }
-@media (max-width:600px) {
-  main h1{
+@media (max-width: 600px) {
+  main h1 {
     font-size: 1.8rem;
-  }  
+  }
 }
 
-h2{
+h2 {
   font-size: 2em;
   z-index: 1;
   font-weight: 400;
 }
 
-h3{
+h3 {
   font-size: 1.75em;
   font-weight: 400;
 }
 
-h4{
+h4 {
   font-size: 1.5em;
   font-weight: 400;
 }
 
-h5{
+h5 {
   font-size: 1em;
   font-weight: 300;
 }
 
-h6{
+h6 {
   font-size: 0.75em;
   font-weight: 300;
 }
 
 /* variables */
-:root{
+:root {
   --main-color2: rgba(124, 156, 191, 1);
   --main-color3: rgba(171, 60, 164, 1);
   --main-color4: rgba(97, 14, 154, 1);
   --main-color5: rgba(250, 239, 177, 1);
   --main-color6: rgba(251, 173, 131, 1);
-  --dark-background-color:rgb(72, 71, 71);
-  --footer-color: #584C4C;
+  --dark-background-color: rgb(72, 71, 71);
+  --footer-color: #584c4c;
   --text-color-dark: rgba(61, 57, 81, 1); /*nav*/
   --text-color-light: rgba(252, 255, 233, 1);
 }
 
 /* Common class */
 .full-width-image {
-  width: 100%; 
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block; 
+  display: block;
   z-index: 1;
 }
 
 /* Common containers */
 .container-1 {
   position: relative;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .container-1 .full-width-image {
   height: 600px;
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .container-1 .full-width-image {
-      height: 250px;
+    height: 250px;
   }
 }
