@@ -15,6 +15,11 @@
   padding: 0 50px;
 }
 
+.footer-content a {
+  color: #ccc;
+  margin: 0;
+}
+
 /* section 1 */
 .contact-info {
   flex: 1;
@@ -24,15 +29,10 @@
   margin-top: 20px;
 }
 
-.contact-info a {
-  color: #ccc;
-  margin: 0;
-  text-align: left;
-}
-
 .contact-info p {
   display: flex;
   align-items: center;
+  text-align: left;
   gap: 3px;
 }
 
