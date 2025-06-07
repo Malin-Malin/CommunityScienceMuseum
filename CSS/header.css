@@ -160,9 +160,7 @@
   .nav-container {
     display: none;
   }
-  /* .nav-container a {
-    text-decoration: none;
-  } */
+
   .hamburger-header {
     display: block;
     padding: 30px;

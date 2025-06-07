@@ -1,4 +1,4 @@
-@import url("./reset.css");
+@import url(./reset.css);
 @import url(./footer.css);
 @import url(./header.css);
 @import url(./speech_bubble.css);
@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  font-size: 1.125rem;
+  font-size: var(--p);
   line-height: 1.5;
   text-align: center;
 }
@@ -20,7 +20,7 @@ body {
 .button {
   border-radius: 10px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: var(--button);
   border: none;
   transition: background-color 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -131,42 +131,48 @@ p {
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: var(--h1);
   z-index: 1;
   font-weight: 900;
 }
-@media (max-width: 600px) {
-  main h1 {
-    font-size: 1.8rem;
-  }
-}
 
 h2 {
-  font-size: 2em;
+  font-size: var(--h2);
   z-index: 1;
   font-weight: 400;
 }
 
 h3 {
-  font-size: 1.75em;
+  font-size: var(--h3);
   font-weight: 400;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: var(--h4);
   font-weight: 400;
 }
 
 h5 {
-  font-size: 1em;
+  font-size: var(--h5);
   font-weight: 300;
 }
 
 h6 {
-  font-size: 0.75em;
+  font-size: var(--h6);
   font-weight: 300;
 }
 
+@media (max-width: 600px) {
+  h1 {
+    font-size: var(--h3);
+  }
+  h2 {
+    font-size: var(--h4);
+  }
+  h3 {
+    font-size: var(--h5);
+  }
+}
 /* variables */
 :root {
   --main-color2: rgba(124, 156, 191, 1);
@@ -178,6 +184,15 @@ h6 {
   --footer-color: #584c4c;
   --text-color-dark: rgba(61, 57, 81, 1); /*nav*/
   --text-color-light: rgba(252, 255, 233, 1);
+  /* ------------------------------ */
+  --h1: 2.5em;
+  --h2: 2em;
+  --h3: 1.75em;
+  --h4: 1.5em;
+  --h5: 1em;
+  --h6: 0.75em;
+  --p: 1.125rem;
+  --button: 1.2rem;
 }
 
 /* Common class */
