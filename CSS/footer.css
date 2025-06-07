@@ -40,13 +40,12 @@
   padding-right: 10px;
 }
 
-.contact-info a .social-icons {
+.social-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 200px;
-  padding-top: 10px;
-  padding-bottom: 50px;
+  padding: 10px 5px 50px 5px;
 }
 
 /* section 2 */
