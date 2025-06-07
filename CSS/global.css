@@ -166,11 +166,9 @@ h6 {
   h1 {
     font-size: var(--h3);
   }
-  h2 {
-    font-size: var(--h4);
-  }
+  h2,
   h3 {
-    font-size: var(--h5);
+    font-size: var(--h4);
   }
 }
 /* variables */

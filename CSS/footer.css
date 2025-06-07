@@ -17,7 +17,6 @@
 
 .footer-content a {
   color: #ccc;
-  margin: 0;
   text-decoration: none;
 }
 
@@ -37,7 +36,11 @@
   gap: 3px;
 }
 
-.social-icons {
+.contact-info .fa-solid {
+  padding-right: 10px;
+}
+
+.contact-info a .social-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
