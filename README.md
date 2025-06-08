@@ -176,7 +176,7 @@ Considering that the project had a total duration of four weeks from start to fi
 Semester Project has design and code by Malin Skrettingland.
 
 <p align="center">
-  <img src="image/Cartoon-style-portrait-01.05.jpg" alt="Cartoon-style portrait" width="400">
+  <img src="/images/Cartoon-style-portrait-01.05.jpg" alt="Cartoon-style portrait" width="400">
 </p>
 
 [GitHub: Malin-Malin](https://github.com/Malin-Malin)
