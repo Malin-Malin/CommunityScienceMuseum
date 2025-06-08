@@ -29,7 +29,7 @@ The primary goal was to create a child-friendly and visually appealing website t
 'As a visitor, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
 
 You can view the live site here:  
-**[Community Science Museum](https://malin-malin.github.io/CommunityScienceMuseum/index.html)**
+**[Community Science Museum](https://community-science-museum-malin.netlify.app/)**
 
 ---
 
@@ -62,39 +62,44 @@ One of the key challenges was positioning elements over images (e.g., speech bub
 
 **Example of Code:**
 
-````css
+```css
 .speech-bubble {
-    position: absolute;
-    bottom: 10%;
-    left: 15%;
-    z-index: 10;
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
+  z-index: 10;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
 }
+```
 
 I created separate classes for each placement of the speech bubbles and astronauts, hardcoding the specific positions to ensure precision. To solve the challenge of creating borders on the speech bubbles, I added an extra triangle behind the main triangle. By carefully positioning and styling them in relation to each other, I achieved the desired border effect.
 
 This solution was time-consuming and could have been simplified using other methods, many of which required JavaScript. Later, I realized this could have been solved more efficiently using **CSS Grid**, which would have provided better control over positioning and reduced the need for hardcoded values.
 
-### 2. I worked extensively with CSS Grid to create structured layouts for exhibition sections and buttons. Media queries were added to ensure the layout looks great on all screen sizes.
+### 2. Structured Layouts
+
+I worked extensively with CSS Grid to create structured layouts for exhibition sections and buttons. Media queries were added to ensure the layout looks great on all screen sizes.
 
 **Example of Code:**
+
 ```css
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 @media (max-width: 768px) {
-    .grid-container {
-        grid-template-columns: 1fr; /* Stacks items vertically on smaller screens */
-    }
+  .grid-container {
+    grid-template-columns: 1fr; /* Stacks items vertically on smaller screens */
+  }
 }
 ```
 
 ### 3.**Sticky Header and Navigation**
+
 Creating a sticky navigation that remains fixed at the top while transitioning smoothly required careful testing with position: fixed and ensuring no content overlapped.
 
 ---
@@ -105,6 +110,7 @@ Figma: Layout planning.
 Visual studioes: creating the website using HTML and CSS.
 
 The project is organized as follows:
+
 ```
 /CommunityScienceMuseum
 │
@@ -126,37 +132,46 @@ The project is organized as follows:
 │
 └── README.md                 # Project documentation (this file)
 ```
+
 ---
 
 ## Room for Improvement
 
 ### 1. **File and Folder Structure**
+
 The current file structure works but could be improved for better scalability. For example:
+
 - **CSS Files**: Consider separating components like buttons, grids, and layout styling into their own CSS files.
 - Use a more organized folder structure.
 
 ### 2. **CSS Consistency**
+
 - Implement more **CSS variables** to avoid hardcoding colors, font sizes, and spacing. This will make the code easier to maintain and update.
 - Maintain consistency when writing `@media` queries by following a uniform order (e.g., desktop-first or mobile-first).
 
 ### 3. **Class Names and IDs**
+
 - Use clearer and more descriptive class names to improve readability and reusability.
 - Incorporate **IDs** where appropriate for unique elements to avoid unnecessary duplication of classes.
 
 ### 4. **Reducing Code Repetition**
+
 - Review the code to identify and remove unused classes or styles.
 - Combine similar styles into reusable components to avoid repetition and make the code cleaner.
 
 ### 5. **Grid for Positioning**
+
 Many of the hardcoded positions for elements like speech bubbles and astronauts could be replaced with a **CSS Grid**-based solution. This would simplify the layout significantly and make it more adaptable to different screen sizes.
 
 ### 6. **Focus on KISS and DRY Principles**
+
 - I should have followed the **KISS (Keep It Simple, Stupid)** principle to ensure a more streamlined and maintainable design. Simplifying the code and design would have saved time and reduced unnecessary complexity.
 - Applying **DRY (Don't Repeat Yourself)** principles to my CSS would have helped eliminate redundant styles and made the codebase easier to maintain.
 
 ---
 
 ## Reflection
+
 This project allowed me to explore advanced CSS techniques, including positioning, grid layouts, and responsiveness. While working on the project, I faced challenges with:
 
 Overlapping elements (speech bubbles and astronauts).
@@ -180,4 +195,3 @@ Semester Project has design and code by Malin Skrettingland.
 </p>
 
 [GitHub: Malin-Malin](https://github.com/Malin-Malin)
-````
