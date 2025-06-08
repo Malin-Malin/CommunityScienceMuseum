@@ -1,4 +1,4 @@
-# Community Science Museum - Exam Project
+# Community Science Museum - [Semester Project](https://community-science-museum-malin.netlify.app/)
 
 Welcome to the **Community Science Museum** website, my final exam project. The site is designed to provide visitors with an engaging, user-friendly, and responsive experience. It highlights exhibitions, events, and educational resources to inspire curiosity about science.
 
@@ -20,6 +20,7 @@ Welcome to the **Community Science Museum** website, my final exam project. The 
 ## About the Project
 
 This project is my **semester project 1- final project** for front-end development studies. The goal was to:
+
 - Create a fully functional website using only **HTML5** and **CSS**.
 - Focus on clean design, accessibility, and responsiveness.
 - Demonstrate technical skills and creativity.
@@ -56,10 +57,12 @@ You can view the live site here:
 ## Some Challenges and Solutions
 
 ### 1. **Positioning Elements Over Images** and **Speech Bubbles: Time-consuming implementation.**
+
 One of the key challenges was positioning elements over images (e.g., speech bubbles and astronauts). I used **`position: relative`** and **`position: absolute`** in combination with **`z-index`** and adjusted coordinates.
 
 **Example of Code:**
-```css
+
+````css
 .speech-bubble {
     position: absolute;
     bottom: 10%;
@@ -110,7 +113,7 @@ The project is organized as follows:
 │   ├── events.html         	# Coming Soon placeholder page
 │   ├── header.html 			# Sticky Header, Navigation, Hamburger Menu: I wanted to link this across all my pages, but as far as I could find, JavaScript is required to achieve this.
 │   ├── footer.html 			# Where I designed the footer content: I wanted to link this across all my pages
-│                
+│
 ├── CSS/
 │   ├── global.css            # General styles for the entire website
 │   ├── header.css            # Styles for the header navigation
@@ -158,7 +161,7 @@ This project allowed me to explore advanced CSS techniques, including positionin
 
 Overlapping elements (speech bubbles and astronauts).
 Ensuring all pages were fully responsive on mobile devices.
-Maintaining clean and semantic code for accessibility. 
+Maintaining clean and semantic code for accessibility.
 By focusing on simplicity and reusability, I could have achieved a cleaner structure that would be easier to expand and update in the future.
 I learned the importance of careful planning, consistent testing, and optimizing for both functionality and design.
 This project represents my growth in front-end development and showcases the skills I have gained during the execution of this project.
@@ -168,7 +171,13 @@ Considering that the project had a total duration of four weeks from start to fi
 
 ---
 
-## Author
-Malin Skrettingland
+## Credits
 
-GitHub: Malin-Malin
+Semester Project has design and code by Malin Skrettingland.
+
+<p align="center">
+  <img src="image/Cartoon-style-portrait-01.05.jpg" alt="Cartoon-style portrait" width="400">
+</p>
+
+[GitHub: Malin-Malin](https://github.com/Malin-Malin)
+````
