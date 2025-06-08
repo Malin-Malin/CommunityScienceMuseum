@@ -92,7 +92,7 @@ This solution was time-consuming and could have been simplified using other meth
         grid-template-columns: 1fr; /* Stacks items vertically on smaller screens */
     }
 }
-
+```
 
 ### 3.**Sticky Header and Navigation**
 Creating a sticky navigation that remains fixed at the top while transitioning smoothly required careful testing with position: fixed and ensuring no content overlapped.
@@ -105,7 +105,7 @@ Figma: Layout planning.
 Visual studioes: creating the website using HTML and CSS.
 
 The project is organized as follows:
-
+```
 /CommunityScienceMuseum
 │
 ├── index.html  				# Main landing page
@@ -125,7 +125,7 @@ The project is organized as follows:
 │   └── ...
 │
 └── README.md                 # Project documentation (this file)
-
+```
 ---
 
 ## Room for Improvement
