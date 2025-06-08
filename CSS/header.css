@@ -145,6 +145,11 @@
   .navbar-list li a {
     display: block;
   }
+  .navbar-list ul {
+    width: 100%;
+    gap: 10px;
+    padding: 0;
+  }
   .navbar-list {
     display: none;
   }
@@ -154,6 +159,9 @@
     display: none;
   }
   #menu-checkbox:checked ~ .navbar-list {
+    display: flex;
+  }
+  #menu-checkbox:checked ~ .navbar-list > ul {
     display: flex;
     flex-direction: column;
   }
